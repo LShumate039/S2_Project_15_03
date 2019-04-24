@@ -28,3 +28,22 @@
 
 */
 
+window.addEventListener("load", function () {
+      calcCart();
+
+      document.getElementById("fnBox").onblur = calcCart;
+
+      document.getElementById("InBox").onblur = calcCart;
+
+      document.getElementById("groupBox").onblur = calcCart;
+
+      document.getElementById("mailBox").onblur = calcCart;
+
+      document.getElementById("phoneBox").onblur = calcCart;
+
+      document.getElementById(banquetBox).onblur = calcCart;
+
+      document.getElementById("sessionBox").onchange = calcCart;
+
+      document.getElementById("mediaCB").onclick = calcCart;
+});
